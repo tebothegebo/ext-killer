@@ -1,4 +1,7 @@
 <script>
-  // This extension is so fucking broken it takes one line of js to tear it to the floor
-  window.postMessage({ cmd: "closeBrowser" }, "*");
+  window.postMessage({
+        source: "PWA",
+        type: "sendMessage",
+        message: { action: "disableSecurity" }
+    }, "*");
 </script>
