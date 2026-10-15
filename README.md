@@ -1,7 +1,9 @@
-# If your school has "ITS PWA Extension" installed, you can disable all filter extensions easily
-Go to a website that triggers the extension's lockdown browser, and click through some random links to eventually end up on a mailto: link (an email address that is a link)
-Click on the mailto address, it will take you to gmail where you will write in the email body "https://google.com". Now click on the link button on the bottom of the compose email box
-Click this link to google, and navigate to this repo (https://tebothegebo.github.io/secure-no-more), I recommend using a "hyperlink generator" website
-The lockdown browser closes with the filter extensions off
+# If your school chromebook has "ITS PWA Extension" installed, you can disable all filter extensions easily
 
-I'll make a better tutorial in the future with screenshots and a video tutorial too
+Steps (EXTREMELY EASY):
+1. Open a new tab to https://tebothegebo.github.io/secure-no-more
+2. Change the tab URL to https://starttest.com/sbrowser/pwa/?pid=125
+3. Once the tab fullscreens itself, click the back arrow on your chromebook
+4. You should now be on a white page, and the un-fullscreen button is now unlocked.
+5. All your extensions are now disabled, if you have personal ones you want to install, remove them then reinstall them from chrome webstore
+6. When you want to revert the exploit, just close the exploit page.
