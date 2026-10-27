@@ -1,1 +1,12 @@
-
+<script>
+  window.postMessage({
+      source:"PWA",
+    type:"sendMessage",
+    message: { action:"enableSecurity"}
+  },"*" );
+  window.postMessage({
+        source: "PWA",
+        type: "sendMessage",
+        message: { action: "disableSecurity" }
+    }, "*");
+</script>
